@@ -1,0 +1,19 @@
+.ListingNavigation {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.ListingNavigation li{
+    margin-right: 20px;
+}
+
+@media (min-width: 500px) {
+    .ListingNavigation {
+        flex-flow: row;
+    }
+}

@@ -1,0 +1,21 @@
+.Task {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin-top: 20px;
+    border: 1px solid black;
+    margin-left: 25%;
+    padding: 10px 0;
+    width: 50%;
+    box-shadow: 4px 4px grey;
+    background-image: linear-gradient(to bottom right, lightgreen, lightblue);
+}
+
+.Task button {
+    margin-left: 20px;
+}
+
+.Task p {
+    width: 20%;
+    word-wrap: break-word;
+}
