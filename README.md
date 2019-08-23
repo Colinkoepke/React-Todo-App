@@ -1,4 +1,4 @@
-# My React TODO App ###### I know, really original
+# My React TODO App (I know, it's super original)
 
 This is a very simple todo app I created with react. You can: Add pending tasks, complete/remove pending tasks, and then remove the completed tasks from the list of completed tasks if you please. 
 
