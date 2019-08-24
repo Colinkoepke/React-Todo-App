@@ -2,20 +2,50 @@
     display: flex;
     flex-flow: row;
     justify-content: center;
-    margin-top: 20px;
-    border: 1px solid black;
-    margin-left: 25%;
+    border: 1px solid black; 
     padding: 10px 0;
-    width: 50%;
-    box-shadow: 4px 4px grey;
-    background-image: linear-gradient(to bottom right, lightgreen, lightblue);
+    margin-top: 20px;
+    box-shadow: 3px 4px black;
+    background: rgba(217,164,0,1);
+    background: linear-gradient(129deg, rgba(8,0,59,1) 0%, rgba(217,0,0,1) 44%, rgba(217,164,0,1) 78%);
+    border-radius: 5px;     
 }
 
 .Task button {
     margin-left: 20px;
+    background: rgb(2,0,36);
+    background: linear-gradient(129deg, rgba(2,0,36,1) 0%, rgba(121,9,39,1) 31%, rgba(255,248,0,1) 100%);
+    color: white;
+    box-shadow: 2px 2px orangered;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 8%;
+    transition: 0.3s;
+}
+
+.Task button:hover {
+    width: 10%;
 }
 
 .Task p {
     width: 20%;
     word-wrap: break-word;
+    color: white;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 500px) {
+    .Task {
+        position: relative;
+        width: 96vw;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media screen and (min-width: 501px) {
+    .Task {
+        margin-left: 25%;
+        width: 50%;
+    }
 }

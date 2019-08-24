@@ -7,7 +7,7 @@ import {CSSTransition, TransitionGroup} from 'react-transition-group';
 
 class Todo extends Component {
     state = {
-        taskListing: ['Task1', 'Task2'],
+        taskListing: [],
         pendingTasks: ['Pending Task1'],
         completedTasks: ['Completed Task1'],
         taskType: 'pending',
@@ -71,7 +71,7 @@ class Todo extends Component {
 
     render() {
         return (
-            <div>
+            <div className="Todo">
                 <NewTask newTask={(task) => this.newTaskHandler(task)} completed={this.state.taskType}/>
                 {this.props.match.tasktype}
                 <TransitionGroup component="ul" className="TodoList">

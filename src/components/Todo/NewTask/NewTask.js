@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 
 import Aux from '../../hoc/Auxiliary';
+import './NewTask.css';
 
 function NewTask(props) {
 
@@ -11,7 +12,7 @@ function NewTask(props) {
     }
 
     return (
-        <div>
+        <div className="NewTask">
             {props.completed === 'pending' ?
                 <Aux>
                     <input value={taskDesc} onChange={updateTaskDesc}/>

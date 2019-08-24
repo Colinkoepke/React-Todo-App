@@ -1,0 +1,24 @@
+.NewTask {
+    position: static;
+}
+
+.NewTask input {
+    background-color: #343d46;
+    color: #ecdd04;
+    font-weight: 600;
+    padding-left: 1%;
+    width: 30%;
+    height: 35px;
+}
+
+.NewTask button{
+    margin-left: 5px;
+    background-color: #ff751a;
+    box-shadow: 3px 3px #d18801;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    color: #fadfc1;
+    border-radius: 6px;
+}
+
